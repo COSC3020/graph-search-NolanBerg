@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/M24O3lId)
 # Search in Graphs
 
 Recall the pseudocode for Depth-First Search:
@@ -26,14 +25,6 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
-
-Sources: Used google for this assignment. Also used ai to help for testing/code.
-
-In the worst-case scenario, every vertex in the graph is visited exactly once. The recursion in DFS makes sure that each vertex is entered into the recursion stack, leading to $( V )$.
-
-As DFS goes to each vertex, it iterates over edges emerging from said vertex. Number of iterations across all vertices is the total number of edges $( E )$.
-
-The worst-case time complexity of the Depth-First Search algorithm implemented is $\Theta(V + E)$ , where $(V)$ is the number of vertices and $(E)$ is the number of edges in the graph. 
 
 ## Bonus
 
