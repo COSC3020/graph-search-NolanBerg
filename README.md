@@ -27,7 +27,7 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
-Sources: Used google for this assignment. Also used ai to help for github actions/testing.
+Sources: Used google for this assignment. Also used ai to help for testing/code.
 
 In the worst-case scenario, every vertex in the graph is visited exactly once. The recursion in DFS makes sure that each vertex is entered into the recursion stack, leading to $( V )$.
 
