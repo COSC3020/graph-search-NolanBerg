@@ -33,6 +33,8 @@ In the worst-case scenario, every vertex in the graph is visited exactly once. T
 
 As DFS goes to each vertex, it iterates over edges emerging from said vertex. Number of iterations across all vertices is the total number of edges $( E )$.
 
+The worst-case time complexity of the Depth-First Search algorithm implemented is $\Theta(V + E)$ , where $(V)$ is the number of vertices and $(E)$ is the number of edges in the graph. 
+
 ## Bonus
 
 Implement and analyze breadth-first search.
